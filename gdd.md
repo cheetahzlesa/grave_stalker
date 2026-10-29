@@ -18,23 +18,37 @@ Gameplay loop a vizuáli sú inšpirované survival hororom darkwood a inými ro
 
 ### Grave Stalker
 
+Grave Stalker je hlavná postava hry. Je definovaný vlastňostami, ktoré si vie zlepšovať - pozri [zlepšovanie postavy](gdd.md#zlepšovanie-schopnosti)
+
 |||
 |------|-----|
 |Životy||
 |Obrana||
-|ǔtok||
+|Útok||
 |Rýchlosť||
 |Rýchlosť útokov||
 
 ### Grave Dweleri
 
-#### Enemy template
+Na mape sa vedia nachádzať aj nepriateľské stvorenia - Grave Dweleri. Majú rovnáké typy vlastnosti ako Grave Stalker. 
+
+#### Kostlivec 
 
 |||
 |------|-----|
 |Životy||
 |Obrana||
-|ǔtok||
+|Útok||
+|Rýchlosť||
+|Rýchlosť útokov||
+
+#### Zombie 
+
+|||
+|------|-----|
+|Životy||
+|Obrana||
+|Útok||
 |Rýchlosť||
 |Rýchlosť útokov||
 
@@ -70,7 +84,7 @@ S hrobmi, truhlicami a prípadne pákami, fakľami ktoré by slúžili na odomyk
 Celá mapa a jej obsah je procedurálne generovaný, t.j. pozícia všetkých hrobov, truhlíc, brečtanu, nebezpečných zón, hrobiek ale aj typu a množstva nepriateľov či peňazí. Generácia je obmedzená pravidlami pre množstvá a rozostupy ktoré sú zachytené v tejto tabuľke. 
 
 #### Ničenie častí prostredia 
-Niektoré prekážky cez ktoré hráč nevie prejsť, sú zničiteľné. Ide o vegetáciu - brečtan. Hráč si týmto spôsobom odblokovať ďaľšie častie mapy. 
+Niektoré prekážky cez ktoré hráč nevie prejsť, sú zničiteľné. Ide o vegetáciu - brečtan. Hráč si týmto spôsobom vie odblokovať ďaľšie časti mapy. 
 
 ### Meta
 
